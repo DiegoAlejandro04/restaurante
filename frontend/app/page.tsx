@@ -16,9 +16,9 @@ export default function HomePage() {
 
         <div className="relative container px-4 py-20">
           <div className="max-w-2xl text-white">
-            <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 leading-tight">Sabor & Tradición</h1>
+            <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6 leading-tight">Piko Riko</h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90">
-              Bienvenido a Piko Riko en el encontraras multiples platos de la comida colombiana
+              Disfruta del mejor pollo al estilo americano
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/menu">
