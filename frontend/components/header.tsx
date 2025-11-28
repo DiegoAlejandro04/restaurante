@@ -15,7 +15,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
        <Link href="/" className="flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" className="h-8 w-8" />
+          <img src="/logo.png" alt="Logo" className="h-12 w-12" />
           <span className="font-serif text-xl font-bold text-foreground">Piko Riko</span>
         </Link>
 
