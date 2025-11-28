@@ -11,27 +11,27 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
-      <div className="container flex h-16 items-center justify-between px-4">
-        {/* Logo */}
-       <Link href="/" className="flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" className="h-12 w-12" />
-          <span className="font-serif text-xl font-bold text-foreground">Piko Riko</span>
-        </Link>
+    <header className="sticky top-0 z-50 bg-orange-500/95 backdrop-blur border-b border-border">
+  <div className="container flex h-16 items-center justify-between px-4">
+    <Link href="/" className="flex items-center gap-2">
+      <img src="/logo.png" alt="Logo" className="h-10 w-10" />
+      <span className="font-serif text-xl font-bold text-white">Piko Riko</span>
+    </Link>
 
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6">
-          <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
-            Inicio
-          </Link>
-          <Link href="/menu" className="text-muted-foreground hover:text-foreground transition-colors">
-            Menú
-          </Link>
-          <Link href="/admin" className="text-muted-foreground hover:text-foreground transition-colors">
-            Admin
-          </Link>
-        </nav>
+<nav className="hidden md:flex items-center gap-6">
+  <Link href="/" className="text-white hover:text-gray-200 transition-colors">
+    Inicio
+  </Link>
+  <Link href="/menu" className="text-white hover:text-gray-200 transition-colors">
+    Menú
+  </Link>
+  <Link href="/admin" className="text-white hover:text-gray-200 transition-colors">
+    Admin
+  </Link>
+</nav>
+
 
         {/* Cart Button */}
         <div className="flex items-center gap-4">
